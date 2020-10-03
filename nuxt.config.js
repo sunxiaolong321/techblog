@@ -15,6 +15,8 @@ export default {
 
   target: 'static',
 
+  ssr: false,
+
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     // 直接加载一个 Node.js 模块。（在这里它是一个 Sass 文件）
