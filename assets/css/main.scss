@@ -1,0 +1,46 @@
+// markdwon
+.nuxt-content{
+  color: #212121;
+  h1 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+  }
+  h2 {
+    font-size: 1.6rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    letter-spacing: 2px;
+  }
+  h3 {
+    font-size: 1.4rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    letter-spacing: 2px;
+  }
+  h4 {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    letter-spacing: 2px;
+  }
+  h5 {
+    font-size: 1rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    letter-spacing: 2px;
+  }
+  h6 {
+    font-weight: bolder;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    letter-spacing: 2px;
+  }
+  ul {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  p {
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+}
