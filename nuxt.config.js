@@ -12,11 +12,7 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-
   target: 'static',
-
-  ssr: false,
-
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     // 直接加载一个 Node.js 模块。（在这里它是一个 Sass 文件）
@@ -43,6 +39,7 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
+    '@nuxtjs/vuetify',
     '@nuxtjs/bulma',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
